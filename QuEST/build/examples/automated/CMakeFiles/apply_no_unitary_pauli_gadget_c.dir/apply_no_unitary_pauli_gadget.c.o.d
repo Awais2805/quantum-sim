@@ -1,0 +1,25 @@
+examples/automated/CMakeFiles/apply_no_unitary_pauli_gadget_c.dir/apply_no_unitary_pauli_gadget.c.o: \
+  /Users/awaisrafique/QuEST/examples/automated/apply_no_unitary_pauli_gadget.c \
+  /Users/awaisrafique/QuEST/quest/include/quest.h \
+  /Users/awaisrafique/QuEST/build/quest/include/config.h \
+  /Users/awaisrafique/QuEST/quest/include/modes.h \
+  /Users/awaisrafique/QuEST/quest/include/precision.h \
+  /Users/awaisrafique/QuEST/quest/include/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/complex.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
+  /Users/awaisrafique/QuEST/quest/include/calculations.h \
+  /Users/awaisrafique/QuEST/quest/include/qureg.h \
+  /Users/awaisrafique/QuEST/quest/include/paulis.h \
+  /Users/awaisrafique/QuEST/quest/include/matrices.h \
+  /Users/awaisrafique/QuEST/quest/include/debug.h \
+  /Users/awaisrafique/QuEST/quest/include/decoherence.h \
+  /Users/awaisrafique/QuEST/quest/include/channels.h \
+  /Users/awaisrafique/QuEST/quest/include/environment.h \
+  /Users/awaisrafique/QuEST/quest/include/trotterisation.h \
+  /Users/awaisrafique/QuEST/quest/include/initialisations.h \
+  /Users/awaisrafique/QuEST/quest/include/multiplication.h \
+  /Users/awaisrafique/QuEST/quest/include/operations.h \
+  /Users/awaisrafique/QuEST/quest/include/wrappers.h

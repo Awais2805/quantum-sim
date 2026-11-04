@@ -1,0 +1,25 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/awaisrafique/QuEST/build/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/quest/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/quest/src/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/quest/src/api/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/quest/src/comm/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/quest/src/core/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/quest/src/cpu/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/quest/src/gpu/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/quest/include/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/examples/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/examples/isolated/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/examples/extended/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/examples/automated/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/_deps/catch2-build/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/_deps/catch2-build/src/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/tests/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/tests/unit/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/tests/utils/cmake_install.cmake",
+		"/Users/awaisrafique/QuEST/build/tests/integration/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

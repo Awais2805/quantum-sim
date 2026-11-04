@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/dynamics_c.dir/dynamics.c.o -o dynamics_c  -Wl,-rpath,/Users/awaisrafique/QuEST/build ../../libQuEST.4.2.0.dylib
