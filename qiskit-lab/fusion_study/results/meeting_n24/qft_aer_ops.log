@@ -1,0 +1,1 @@
+{"circuit": "qft", "n": 24, "seed": 1234, "input_ops": 312, "fused_ops": 103, "by_name": {"h": 15, "diagonal": 70, "unitary": 6, "swap": 12}, "by_width": {"1": 15, "2": 12, "3": 10, "4": 6, "5": 60}, "time_taken_s": 4.70115602}

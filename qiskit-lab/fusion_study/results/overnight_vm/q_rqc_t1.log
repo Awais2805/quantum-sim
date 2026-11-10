@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/vmuser/quantum-sim/qiskit-lab/fusion_study/quest_bench.py", line 270, in <module>
+    main()
+  File "/home/vmuser/quantum-sim/qiskit-lab/fusion_study/quest_bench.py", line 210, in main
+    costs = QuestCosts(calibrate(a.runner, env, n_cal, max_diag_w, cache), n_cal)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vmuser/quantum-sim/qiskit-lab/fusion_study/quest_bench.py", line 157, in calibrate
+    times = parse_times(run_runner(runner, ["--reps", reps, "--warmup", 1, *plans], env), len(plans))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vmuser/quantum-sim/qiskit-lab/fusion_study/quest_bench.py", line 99, in run_runner
+    raise RuntimeError(f"quest_runner failed ({proc.returncode}): {proc.stderr.strip() or proc.stdout.strip()}")
+RuntimeError: quest_runner failed (1): QuEST encountered a validation error during function 'createCustomQureg':
+Cannot enable multithreaded processing of a Qureg created in a non-multithreaded QuEST environment.
+Exiting...

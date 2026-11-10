@@ -1,0 +1,4 @@
+n= 6  N:0.0001155s/78op  H2:7.978e-05s/16op  V2:0.0001131s/57op  B2:7.568e-05s/16op
+n= 7  N:0.0001231s/52op  H2:7.421e-05s/12op  V2:0.0001033s/35op  B2:7.575e-05s/10op
+n= 8  N:0.0002463s/148op  H2:0.0001158s/28op  V2:0.0002272s/103op  B2:0.0001152s/25op
+wrote results/smoke_vm/aer_rqc.csv

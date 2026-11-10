@@ -1,0 +1,40 @@
+        cx/2     7.767 ms
+      swap/2     9.194 ms
+        cy/2     9.338 ms
+       cry/2     9.452 ms
+       crz/2     9.510 ms
+        cz/2     9.608 ms
+       crx/2    10.120 ms
+        cp/2    10.834 ms
+         h/1    12.408 ms
+        rx/1    12.411 ms
+        ry/1    12.432 ms
+         u/1    12.966 ms
+      sxdg/1    13.097 ms
+     dense/1    13.810 ms
+       tdg/1    13.918 ms
+         t/1    13.926 ms
+         p/1    13.942 ms
+      diag/1    13.943 ms
+         z/1    13.944 ms
+         s/1    13.949 ms
+       sdg/1    13.954 ms
+        rz/1    13.954 ms
+      diag/2    14.110 ms
+         y/1    14.164 ms
+        sx/1    14.776 ms
+         x/1    15.388 ms
+     dense/2    22.582 ms
+      diag/3    32.036 ms
+      diag/4    40.075 ms
+      diag/5    43.055 ms
+      diag/6    46.401 ms
+      diag/7    48.659 ms
+      diag/8    57.414 ms
+     dense/3   105.669 ms
+     dense/4   165.549 ms
+     dense/5   265.892 ms
+n=23  N:6.942s/1127op  H2:2.051s/216op  V2:5.212s/761op  B2:2.021s/211op  H3:4.811s/136op  V3:21.92s/536op  B3:5.143s/124op  H4:4.715s/124op  V4:27.2s/416op  B4:6.687s/85op  D4:5.605s/749op  D8:5.099s/705op  dp:aer:4.735s/123op  dp:measured:1.892s/207op  diag+dp:aer:4.644s/124op  diag+dp:measured:2.159s/230op  C:6.937s/1127op
+n=24  N:15.41s/1236op  H2:4.189s/231op  V2:11.53s/835op  B2:4.233s/228op  H3:10.05s/143op  V3:47.66s/579op  B3:10.5s/136op  H4:10.31s/117op  V4:59.43s/452op  B4:13.29s/89op  D4:12.05s/780op  D8:10.77s/726op  dp:aer:9.892s/133op  dp:measured:3.945s/223op  diag+dp:aer:10.04s/135op  diag+dp:measured:4.823s/242op  C:15.41s/1236op
+n=25  N:35.19s/1382op  H2:11.05s/296op  V2:26.48s/957op  B2:11s/291op  H3:25.58s/180op  V3:112.6s/668op  B3:26.6s/173op  H4:26.39s/157op  V4:137.7s/509op  B4:35.81s/116op  D4:28.61s/905op  D8:25.98s/844op  dp:aer:25.29s/174op  dp:measured:10.48s/293op  diag+dp:aer:25.26s/177op  diag+dp:measured:12.04s/315op  C:35.08s/1382op
+wrote results/overnight/q_rqc_23_25.csv

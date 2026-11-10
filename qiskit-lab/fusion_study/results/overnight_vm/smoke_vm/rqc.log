@@ -1,0 +1,44 @@
+      diag/1     0.004 ms
+      swap/2     0.004 ms
+      sxdg/1     0.004 ms
+        sx/1     0.005 ms
+         u/1     0.005 ms
+      diag/2     0.005 ms
+     dense/1     0.005 ms
+         t/1     0.005 ms
+         s/1     0.005 ms
+     dense/2     0.006 ms
+         p/1     0.006 ms
+       tdg/1     0.006 ms
+       sdg/1     0.006 ms
+        rz/1     0.006 ms
+         h/1     0.006 ms
+         z/1     0.006 ms
+        cp/2     0.007 ms
+        rx/1     0.007 ms
+         y/1     0.007 ms
+        ry/1     0.007 ms
+         x/1     0.008 ms
+       crz/2     0.008 ms
+        cz/2     0.008 ms
+      diag/3     0.008 ms
+      diag/4     0.009 ms
+        cy/2     0.009 ms
+       cry/2     0.009 ms
+       crx/2     0.009 ms
+        cx/2     0.009 ms
+      diag/5     0.009 ms
+      diag/6     0.009 ms
+      diag/7     0.010 ms
+      diag/8     0.011 ms
+     dense/3     0.013 ms
+     dense/4     0.016 ms
+     dense/5     0.023 ms
+n= 4  N:0.0001297s/23op  H2:1.866e-05s/4op  V2:8.395e-05s/15op  B2:1.401e-05s/3op  H4:1.275e-05s/2op  V4:7.104e-05s/11op  B4:7.895e-06s/1op  D4:0.0001062s/19op  D8:0.0001228s/19op  dp:aer:1.862e-05s/3op  dp:measured:1.394e-05s/3op  diag+dp:aer:1.526e-05s/3op  diag+dp:measured:1.309e-05s/3op
+n= 5  N:0.0003409s/56op  H2:2.712e-05s/6op  V2:0.0002041s/37op  B2:2.524e-05s/6op  H4:2.144e-05s/3op  V4:0.000144s/23op  B4:1.445e-05s/2op  D4:0.0002328s/37op  D8:0.0002298s/37op  dp:aer:6.927e-05s/4op  dp:measured:9.086e-06s/1op  diag+dp:aer:2.566e-05s/4op  diag+dp:measured:8.535e-06s/1op
+n= 6  N:0.0005093s/78op  H2:7.965e-05s/16op  V2:0.0003601s/57op  B2:7.809e-05s/16op  H4:3.934e-05s/6op  V4:0.0002514s/33op  B4:3.735e-05s/5op  D4:0.0003849s/56op  D8:0.0003803s/56op  dp:aer:5.163e-05s/8op  dp:measured:3.314e-05s/5op  diag+dp:aer:4.846e-05s/8op  diag+dp:measured:3.236e-05s/5op
+n= 7  N:0.0003029s/52op  H2:5.792e-05s/12op  V2:0.0001936s/35op  B2:4.542e-05s/10op  H4:4.398e-05s/8op  V4:0.0001726s/20op  B4:3.368e-05s/4op  D4:0.0001923s/29op  D8:0.000175s/27op  dp:aer:3.719e-05s/5op  dp:measured:2.599e-05s/4op  diag+dp:aer:3.551e-05s/5op  diag+dp:measured:3.564e-05s/5op
+n= 8  N:0.0009364s/148op  H2:0.000141s/28op  V2:0.0006219s/103op  B2:0.0001186s/25op  H4:0.0001421s/16op  V4:0.0004735s/60op  B4:9.012e-05s/10op  D4:0.0006308s/91op  D8:0.0005892s/86op  dp:aer:0.0001123s/14op  dp:measured:6.935e-05s/10op  diag+dp:aer:9.566e-05s/14op  diag+dp:measured:8.674e-05s/13op
+n= 9  N:0.0009983s/152op  H2:0.000165s/33op  V2:0.0007107s/110op  B2:0.0002008s/33op  H4:0.0001442s/16op  V4:0.0006206s/65op  B4:0.0001563s/13op  D4:0.0007345s/103op  D8:0.0007286s/98op  dp:aer:0.0001511s/19op  dp:measured:0.0001343s/19op  diag+dp:aer:0.0001726s/20op  diag+dp:measured:0.0001499s/20op
+n=10  N:0.001195s/176op  H2:0.0001898s/35op  V2:0.0008203s/121op  B2:0.0001773s/33op  H4:0.0001914s/15op  V4:0.0009207s/70op  B4:0.0001793s/11op  D4:0.0007842s/104op  D8:0.0007219s/98op  dp:aer:0.0001933s/16op  dp:measured:0.0001363s/15op  diag+dp:aer:0.0001613s/14op  diag+dp:measured:0.0001617s/15op
+wrote results/smoke_vm/rqc.csv

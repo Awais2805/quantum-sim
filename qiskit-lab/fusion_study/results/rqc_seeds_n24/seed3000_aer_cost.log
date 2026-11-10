@@ -1,0 +1,34 @@
+cost model: 31 gate kinds at 24 qubits (0.6s, cached in cost_table_v2_qbench_CPU_t2_n24.json)
+            cp/2     5.617 ms
+           sdg/1     6.330 ms
+            cz/2     7.143 ms
+          swap/2     7.286 ms
+           tdg/1     8.072 ms
+             s/1     8.338 ms
+             u/1     8.863 ms
+            cx/2     8.934 ms
+             z/1     9.639 ms
+           crz/2    10.384 ms
+            cy/2    10.516 ms
+             t/1    11.064 ms
+             p/1    11.171 ms
+             x/1    12.467 ms
+          diag/1    15.887 ms
+            rz/1    17.320 ms
+             y/1    19.043 ms
+          sxdg/1    24.158 ms
+            sx/1    24.198 ms
+            ry/1    25.871 ms
+            rx/1    25.934 ms
+         dense/1    27.084 ms
+             h/1    28.618 ms
+          diag/2    36.433 ms
+          diag/3    40.590 ms
+           cry/2    41.449 ms
+          diag/4    46.534 ms
+           crx/2    46.649 ms
+         dense/2    78.214 ms
+         dense/3   110.265 ms
+         dense/4   189.906 ms
+n=24  H2:12.26s/494op  V2:15.42s/1005op  H3:10.87s/277op  V3:15.35s/989op  H4:11s/233op  V4:15.23s/967op
+wrote results/rqc_seeds_n24/rqc_seed3000_aer_cost.csv

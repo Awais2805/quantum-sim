@@ -1,0 +1,46 @@
+2026-11-10T02:52:17+00:00 START q_qft_16_23: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --circuit qft --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 16 --max-n 23 --reps 3 --out results/overnight/q_qft_16_23.csv
+2026-11-10T02:56:00+00:00 DONE  q_qft_16_23
+2026-11-10T02:56:00+00:00 START q_rqc_16_22: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --circuit rqc --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 16 --max-n 22 --reps 3 --out results/overnight/q_rqc_16_22.csv
+2026-11-10T02:59:51+00:00 DONE  q_rqc_16_22
+2026-11-10T02:59:51+00:00 START q_qft_24_26: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --circuit qft --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 24 --max-n 26 --reps 2 --out results/overnight/q_qft_24_26.csv
+2026-11-10T03:19:21+00:00 DONE  q_qft_24_26
+2026-11-10T03:19:21+00:00 START q_rqc_23_25: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --circuit rqc --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 23 --max-n 25 --reps 2 --out results/overnight/q_rqc_23_25.csv
+2026-11-10T03:52:17+00:00 DONE  q_rqc_23_25
+2026-11-10T03:52:17+00:00 START q_qft_cost: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --cost-model --circuit qft --modes none,horizontal,vertical,both,diagonal --min-n 16 --max-n 26 --reps 2 --out results/overnight/q_qft_cost.csv
+2026-11-10T04:05:05+00:00 DONE  q_qft_cost
+2026-11-10T04:05:05+00:00 START q_rqc_cost: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --cost-model --circuit rqc --modes none,horizontal,vertical,both,diagonal --min-n 16 --max-n 25 --reps 2 --out results/overnight/q_rqc_cost.csv
+2026-11-10T04:23:36+00:00 DONE  q_rqc_cost
+2026-11-10T04:23:36+00:00 START q_qft_27_28: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --circuit qft --modes none,both,diagonal,dp,diag+dp --widths 2 --diag-widths 8 --min-n 27 --max-n 28 --reps 1 --out results/overnight/q_qft_27_28.csv
+2026-11-10T04:38:18+00:00 DONE  q_qft_27_28
+2026-11-10T04:38:18+00:00 START a_qft_16_26: /home/vmuser/.venv/bin/python fusion_bench.py --threads 2 --control --widths 2,3,4 --aer-fusion-ref --circuit qft --min-n 16 --max-n 26 --reps 2 --out results/overnight/a_qft_16_26.csv
+2026-11-10T04:56:23+00:00 DONE  a_qft_16_26
+2026-11-10T04:56:23+00:00 START a_rqc_16_25: /home/vmuser/.venv/bin/python fusion_bench.py --threads 2 --control --widths 2,3,4 --aer-fusion-ref --circuit rqc --basis quest --min-n 16 --max-n 25 --reps 2 --out results/overnight/a_rqc_16_25.csv
+2026-11-10T05:36:40+00:00 DONE  a_rqc_16_25
+2026-11-10T05:36:40+00:00 START q_qft_t1: /home/vmuser/.venv/bin/python quest_bench.py --threads 1 --control --cost-n 24 --circuit qft --modes none,both,diagonal,diag+dp --widths 2,4 --diag-widths 8 --min-n 24 --max-n 24 --reps 2 --out results/overnight/q_qft_t1.csv
+2026-11-10T05:36:41+00:00 FAIL  q_qft_t1 (exit 0), see results/overnight/q_qft_t1.log
+2026-11-10T05:36:41+00:00 START q_rqc_t1: /home/vmuser/.venv/bin/python quest_bench.py --threads 1 --control --cost-n 24 --circuit rqc --modes none,both,diagonal,diag+dp --widths 2,4 --diag-widths 8 --min-n 24 --max-n 24 --reps 2 --out results/overnight/q_rqc_t1.csv
+2026-11-10T05:36:42+00:00 FAIL  q_rqc_t1 (exit 0), see results/overnight/q_rqc_t1.log
+2026-11-10T05:36:42+00:00 START q_rqc_seed1000: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --circuit rqc --seed 1000 --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 22 --max-n 22 --reps 2 --out results/overnight/q_rqc_seed1000.csv
+2026-11-10T05:38:44+00:00 DONE  q_rqc_seed1000
+2026-11-10T05:38:44+00:00 START q_rqc_seed2000: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --circuit rqc --seed 2000 --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 22 --max-n 22 --reps 2 --out results/overnight/q_rqc_seed2000.csv
+2026-11-10T05:39:38+00:00 DONE  q_rqc_seed2000
+2026-11-10T05:39:38+00:00 START q_rqc_seed3000: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --circuit rqc --seed 3000 --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 22 --max-n 22 --reps 2 --out results/overnight/q_rqc_seed3000.csv
+2026-11-10T05:40:49+00:00 DONE  q_rqc_seed3000
+2026-11-10T05:40:49+00:00 QUEUE FINISHED
+2026-11-10T05:41:19+00:00 SKIP  q_qft_16_23 (already done)
+2026-11-10T05:41:19+00:00 SKIP  q_rqc_16_22 (already done)
+2026-11-10T05:41:19+00:00 SKIP  q_qft_24_26 (already done)
+2026-11-10T05:41:19+00:00 SKIP  q_rqc_23_25 (already done)
+2026-11-10T05:41:19+00:00 SKIP  q_qft_cost (already done)
+2026-11-10T05:41:19+00:00 SKIP  q_rqc_cost (already done)
+2026-11-10T05:41:19+00:00 SKIP  q_qft_27_28 (already done)
+2026-11-10T05:41:19+00:00 SKIP  a_qft_16_26 (already done)
+2026-11-10T05:41:19+00:00 SKIP  a_rqc_16_25 (already done)
+2026-11-10T05:41:19+00:00 START q_qft_t1: /home/vmuser/.venv/bin/python quest_bench.py --threads 1 --control --cost-n 24 --circuit qft --modes none,both,diagonal,diag+dp --widths 2,4 --diag-widths 8 --min-n 24 --max-n 24 --reps 2 --out results/overnight/q_qft_t1.csv
+2026-11-10T05:41:20+00:00 FAIL  q_qft_t1 (exit 0), see results/overnight/q_qft_t1.log
+2026-11-10T05:41:20+00:00 START q_rqc_t1: /home/vmuser/.venv/bin/python quest_bench.py --threads 1 --control --cost-n 24 --circuit rqc --modes none,both,diagonal,diag+dp --widths 2,4 --diag-widths 8 --min-n 24 --max-n 24 --reps 2 --out results/overnight/q_rqc_t1.csv
+2026-11-10T05:41:21+00:00 FAIL  q_rqc_t1 (exit 0), see results/overnight/q_rqc_t1.log
+2026-11-10T05:41:21+00:00 SKIP  q_rqc_seed1000 (already done)
+2026-11-10T05:41:21+00:00 SKIP  q_rqc_seed2000 (already done)
+2026-11-10T05:41:21+00:00 SKIP  q_rqc_seed3000 (already done)
+2026-11-10T05:41:21+00:00 QUEUE FINISHED

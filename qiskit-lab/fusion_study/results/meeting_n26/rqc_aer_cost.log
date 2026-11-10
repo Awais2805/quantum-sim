@@ -1,0 +1,30 @@
+cost model: 27 gate kinds at 26 qubits (159.1s, cached in cost_table_v2_qbench_CPU_t2_n26.json)
+            cp/2     5.177 ms
+            cz/2    11.281 ms
+            cx/2    11.735 ms
+           sdg/1    12.363 ms
+          swap/2    14.270 ms
+             t/1    20.790 ms
+             p/1    21.542 ms
+             z/1    22.062 ms
+             s/1    23.858 ms
+           tdg/1    26.201 ms
+            cy/2    38.916 ms
+            rz/1    56.119 ms
+           crz/2    57.809 ms
+             y/1    69.821 ms
+          diag/1    78.959 ms
+             h/1    79.768 ms
+             x/1    83.304 ms
+            rx/1    84.060 ms
+            ry/1    90.195 ms
+         dense/1    93.549 ms
+            sx/1   109.886 ms
+          sxdg/1   110.396 ms
+             u/1   113.728 ms
+          diag/2   152.949 ms
+           cry/2   153.448 ms
+           crx/2   155.184 ms
+         dense/2   322.195 ms
+n=26  H2:76.64s/894op  V2:99.62s/1411op
+wrote results/meeting_n26/rqc_aer_cost.csv

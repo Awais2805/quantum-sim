@@ -1,0 +1,89 @@
+circuit,n,fingerprint,config,backend,label,ops,sim_min_s,sim_med_s,sim_max_s,reps,threads
+qft,18,9fdf24249a05,aer:none,aer,Aer · no fusion,180,0.021498185,0.023854152,0.033526357,3,4
+qft,18,9fdf24249a05,aer:builtin,aer,Aer · Aer built-in fusion,180,0.055184408,0.062103209,0.072341518,3,4
+qft,18,9fdf24249a05,aer:aer-port,aer,Aer · Aer fuser (offline port),62,0.04388914,0.055291674,0.06838861,3,4
+qft,18,9fdf24249a05,aer:dp,aer,Aer · ours: dp (Aer costs),162,0.021121351,0.03157245,0.032735243,3,4
+qft,18,9fdf24249a05,aer:diag+dp,aer,Aer · ours: diag+dp (Aer costs),162,0.019969799,0.021736318,0.031691416,3,4
+qft,18,9fdf24249a05,aer:diag8,aer,Aer · ours: diagonal k=8,53,0.068453478,0.079675583,0.084310851,3,4
+qft,18,9fdf24249a05,quest:none,quest,QuEST · no fusion,180,0.03768787,0.038033724,0.039077287,3,4
+qft,18,9fdf24249a05,quest:aer-port,quest,QuEST · Aer fuser plan,62,0.047170028,0.048179558,0.052150203,3,4
+qft,18,9fdf24249a05,quest:dp,quest,QuEST · ours: dp (QuEST costs),162,0.035655705,0.038838756,0.238623405,3,4
+qft,18,9fdf24249a05,quest:diag+dp,quest,QuEST · ours: diag+dp (QuEST costs),162,0.03582547,0.039905147,0.290497399,3,4
+qft,18,9fdf24249a05,quest:diag8,quest,QuEST · ours: diagonal k=8,53,0.026894382,0.027439107,0.042812264,3,4
+qft,20,5c8f75ab570b,aer:none,aer,Aer · no fusion,220,0.112273127,0.119365425,0.139617833,3,4
+qft,20,5c8f75ab570b,aer:builtin,aer,Aer · Aer built-in fusion,220,0.235855735,0.244650614,0.650231543,3,4
+qft,20,5c8f75ab570b,aer:aer-port,aer,Aer · Aer fuser (offline port),75,0.235523807,0.261333446,1.034164283,3,4
+qft,20,5c8f75ab570b,aer:dp,aer,Aer · ours: dp (Aer costs),200,0.126334662,0.130534505,0.141155419,3,4
+qft,20,5c8f75ab570b,aer:diag+dp,aer,Aer · ours: diag+dp (Aer costs),200,0.129498804,0.146649675,0.368525733,3,4
+qft,20,5c8f75ab570b,aer:diag8,aer,Aer · ours: diagonal k=8,61,0.252292677,0.255925159,0.749858836,3,4
+qft,20,5c8f75ab570b,quest:none,quest,QuEST · no fusion,220,0.181115769,0.181752577,0.692959884,3,4
+qft,20,5c8f75ab570b,quest:aer-port,quest,QuEST · Aer fuser plan,75,0.230541274,0.230722933,0.619856054,3,4
+qft,20,5c8f75ab570b,quest:dp,quest,QuEST · ours: dp (QuEST costs),200,0.173069267,0.173542952,0.176650379,3,4
+qft,20,5c8f75ab570b,quest:diag+dp,quest,QuEST · ours: diag+dp (QuEST costs),200,0.173990554,0.176656766,0.656465587,3,4
+qft,20,5c8f75ab570b,quest:diag8,quest,QuEST · ours: diagonal k=8,61,0.124224229,0.124870049,0.125111643,3,4
+qft,22,2fa844c6039a,aer:none,aer,Aer · no fusion,264,0.542249893,0.553467918,1.033710711,3,4
+qft,22,2fa844c6039a,aer:builtin,aer,Aer · Aer built-in fusion,264,2.175582342,2.196818676,2.285574845,3,4
+qft,22,2fa844c6039a,aer:aer-port,aer,Aer · Aer fuser (offline port),88,2.094235554,2.09591359,2.113992778,3,4
+qft,22,2fa844c6039a,aer:dp,aer,Aer · ours: dp (Aer costs),242,0.671962823,1.042945681,1.156482164,3,4
+qft,22,2fa844c6039a,aer:diag+dp,aer,Aer · ours: diag+dp (Aer costs),242,0.654883883,1.15537415,1.605191729,3,4
+qft,22,2fa844c6039a,aer:diag8,aer,Aer · ours: diagonal k=8,70,1.450153563,1.512678317,2.072673733,3,4
+qft,22,2fa844c6039a,quest:none,quest,QuEST · no fusion,264,0.862791006,0.863839837,0.866411936,3,4
+qft,22,2fa844c6039a,quest:aer-port,quest,QuEST · Aer fuser plan,88,1.511204773,1.569358114,1.623060191,3,4
+qft,22,2fa844c6039a,quest:dp,quest,QuEST · ours: dp (QuEST costs),242,1.249528821,1.287716737,1.325909542,3,4
+qft,22,2fa844c6039a,quest:diag+dp,quest,QuEST · ours: diag+dp (QuEST costs),242,1.290805373,1.330072571,1.332879336,3,4
+qft,22,2fa844c6039a,quest:diag8,quest,QuEST · ours: diagonal k=8,70,0.590768574,1.051838905,1.102993468,3,4
+qft,24,dfe9a5b91c5a,aer:none,aer,Aer · no fusion,312,4.757106573,5.150070388,5.15549613,3,4
+qft,24,dfe9a5b91c5a,aer:builtin,aer,Aer · Aer built-in fusion,312,8.148831912,8.784377177,8.972880774,3,4
+qft,24,dfe9a5b91c5a,aer:aer-port,aer,Aer · Aer fuser (offline port),103,8.385879068,8.400389502,8.59835718,3,4
+qft,24,dfe9a5b91c5a,aer:dp,aer,Aer · ours: dp (Aer costs),288,5.318173876,5.374578746,5.780470478,3,4
+qft,24,dfe9a5b91c5a,aer:diag+dp,aer,Aer · ours: diag+dp (Aer costs),288,5.299536907,5.340961527,5.391970829,3,4
+qft,24,dfe9a5b91c5a,aer:diag8,aer,Aer · ours: diagonal k=8,80,6.918862039,6.9291931,7.159101546,3,4
+qft,24,dfe9a5b91c5a,quest:none,quest,QuEST · no fusion,312,6.81704897,6.843635528,7.212650951,3,4
+qft,24,dfe9a5b91c5a,quest:aer-port,quest,QuEST · Aer fuser plan,103,7.296936686,7.674215506,8.01856187,3,4
+qft,24,dfe9a5b91c5a,quest:dp,quest,QuEST · ours: dp (QuEST costs),288,6.595283407,6.999989555,7.149850648,3,4
+qft,24,dfe9a5b91c5a,quest:diag+dp,quest,QuEST · ours: diag+dp (QuEST costs),288,6.536279119,6.658335861,6.73058299,3,4
+qft,24,dfe9a5b91c5a,quest:diag8,quest,QuEST · ours: diagonal k=8,80,4.298513882,4.325761053,4.869131875,3,4
+rqc,18,377997754b5d,aer:none,aer,Aer · no fusion,775,0.618624074,0.645244666,0.649477445,3,4
+rqc,18,377997754b5d,aer:builtin,aer,Aer · Aer built-in fusion,775,0.118927349,0.123651106,0.143443598,3,4
+rqc,18,377997754b5d,aer:aer-port,aer,Aer · Aer fuser (offline port),90,0.115113725,0.122183675,0.128436351,3,4
+rqc,18,377997754b5d,aer:dp,aer,Aer · ours: dp (Aer costs),260,0.089783654,0.092626214,0.095240959,3,4
+rqc,18,377997754b5d,aer:diag+dp,aer,Aer · ours: diag+dp (Aer costs),238,0.106402177,0.110068121,0.124261839,3,4
+rqc,18,377997754b5d,aer:diag8,aer,Aer · ours: diagonal k=8,467,0.203849388,0.216885163,0.70669469,3,4
+rqc,18,377997754b5d,quest:none,quest,QuEST · no fusion,775,0.205429838,0.206309882,0.664210132,3,4
+rqc,18,377997754b5d,quest:aer-port,quest,QuEST · Aer fuser plan,90,0.107907491,0.108097108,0.175862835,3,4
+rqc,18,377997754b5d,quest:dp,quest,QuEST · ours: dp (QuEST costs),152,0.048318265,0.048360871,0.396087036,3,4
+rqc,18,377997754b5d,quest:diag+dp,quest,QuEST · ours: diag+dp (QuEST costs),155,0.059641449,0.059811007,0.06022934,3,4
+rqc,18,377997754b5d,quest:diag8,quest,QuEST · ours: diagonal k=8,467,0.125886474,0.126424838,0.129431879,3,4
+rqc,20,79e8aa069b8a,aer:none,aer,Aer · no fusion,787,1.278710691,1.537615137,1.542499766,3,4
+rqc,20,79e8aa069b8a,aer:builtin,aer,Aer · Aer built-in fusion,787,0.396345008,0.404042566,0.851895166,3,4
+rqc,20,79e8aa069b8a,aer:aer-port,aer,Aer · Aer fuser (offline port),76,0.394256222,0.394937258,0.792904049,3,4
+rqc,20,79e8aa069b8a,aer:dp,aer,Aer · ours: dp (Aer costs),233,0.34909709,0.822388569,0.828278802,3,4
+rqc,20,79e8aa069b8a,aer:diag+dp,aer,Aer · ours: diag+dp (Aer costs),239,0.424844784,0.731115528,0.894311483,3,4
+rqc,20,79e8aa069b8a,aer:diag8,aer,Aer · ours: diagonal k=8,478,0.902407038,1.179323432,1.24722415,3,4
+rqc,20,79e8aa069b8a,quest:none,quest,QuEST · no fusion,787,0.83643867,1.288045237,1.311664122,3,4
+rqc,20,79e8aa069b8a,quest:aer-port,quest,QuEST · Aer fuser plan,76,0.363732106,0.518795187,0.79272594,3,4
+rqc,20,79e8aa069b8a,quest:dp,quest,QuEST · ours: dp (QuEST costs),127,0.182437978,0.574435217,0.634891195,3,4
+rqc,20,79e8aa069b8a,quest:diag+dp,quest,QuEST · ours: diag+dp (QuEST costs),151,0.212337378,0.221138704,0.222621601,3,4
+rqc,20,79e8aa069b8a,quest:diag8,quest,QuEST · ours: diagonal k=8,478,0.504344267,0.504405147,0.994420167,3,4
+rqc,22,1f2aa6da7213,aer:none,aer,Aer · no fusion,678,4.887430482,4.938312425,5.048590698,3,4
+rqc,22,1f2aa6da7213,aer:builtin,aer,Aer · Aer built-in fusion,678,1.228382295,1.2468398,1.250383256,3,4
+rqc,22,1f2aa6da7213,aer:aer-port,aer,Aer · Aer fuser (offline port),39,1.177186254,1.264195188,1.266674233,3,4
+rqc,22,1f2aa6da7213,aer:dp,aer,Aer · ours: dp (Aer costs),147,1.274538022,1.316835358,1.495288798,3,4
+rqc,22,1f2aa6da7213,aer:diag+dp,aer,Aer · ours: diag+dp (Aer costs),147,1.544460194,1.739049632,2.054088046,3,4
+rqc,22,1f2aa6da7213,aer:diag8,aer,Aer · ours: diagonal k=8,414,4.687651604,4.717653314,5.366121363,3,4
+rqc,22,1f2aa6da7213,quest:none,quest,QuEST · no fusion,678,3.843891593,3.873785027,4.312880971,3,4
+rqc,22,1f2aa6da7213,quest:aer-port,quest,QuEST · Aer fuser plan,39,0.675490702,0.679938009,1.130854721,3,4
+rqc,22,1f2aa6da7213,quest:dp,quest,QuEST · ours: dp (QuEST costs),58,0.320452911,0.618028173,0.780866929,3,4
+rqc,22,1f2aa6da7213,quest:diag+dp,quest,QuEST · ours: diag+dp (QuEST costs),67,0.404633855,0.559935636,0.8673238,3,4
+rqc,22,1f2aa6da7213,quest:diag8,quest,QuEST · ours: diagonal k=8,414,2.664805705,2.693651151,2.816208339,3,4
+rqc,24,3479b166ed7e,aer:none,aer,Aer · no fusion,1236,39.372751234,40.314614716,40.417072779,3,4
+rqc,24,3479b166ed7e,aer:builtin,aer,Aer · Aer built-in fusion,1236,17.183768293,17.599164239,17.979974035,3,4
+rqc,24,3479b166ed7e,aer:aer-port,aer,Aer · Aer fuser (offline port),135,17.055193033,17.470195887,18.029553616,3,4
+rqc,24,3479b166ed7e,aer:dp,aer,Aer · ours: dp (Aer costs),346,16.624237829,17.206538422,17.211101775,3,4
+rqc,24,3479b166ed7e,aer:diag+dp,aer,Aer · ours: diag+dp (Aer costs),352,19.376843719,19.752550455,20.26660153,3,4
+rqc,24,3479b166ed7e,aer:diag8,aer,Aer · ours: diagonal k=8,726,31.37008827,32.081268972,32.590365114,3,4
+rqc,24,3479b166ed7e,quest:none,quest,QuEST · no fusion,1236,33.512704169,34.363967924,36.307853551,3,4
+rqc,24,3479b166ed7e,quest:aer-port,quest,QuEST · Aer fuser plan,135,14.490386218,16.127355891,16.33788353,3,4
+rqc,24,3479b166ed7e,quest:dp,quest,QuEST · ours: dp (QuEST costs),225,7.50250588,8.026891489,8.394809492,3,4
+rqc,24,3479b166ed7e,quest:diag+dp,quest,QuEST · ours: diag+dp (QuEST costs),240,9.063123663,9.439915973,9.489901082,3,4
+rqc,24,3479b166ed7e,quest:diag8,quest,QuEST · ours: diagonal k=8,726,20.991166105,21.394417097,21.892807053,3,4

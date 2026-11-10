@@ -1,0 +1,1 @@
+{"circuit": "rqc", "n": 24, "seed": 1234, "input_ops": 1236, "fused_ops": 134, "by_name": {"unitary": 124, "diagonal": 8, "cp": 1, "crz": 1}, "by_width": {"2": 39, "3": 90, "4": 5}, "time_taken_s": 12.154779595}

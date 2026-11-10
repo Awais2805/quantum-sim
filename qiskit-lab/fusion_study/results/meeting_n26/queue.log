@@ -1,0 +1,21 @@
+2026-11-10T10:52:00+00:00 START qft_aer_greedy: /home/vmuser/.venv/bin/python fusion_bench.py --circuit qft --basis quest --min-n 26 --max-n 26 --threads 2 --widths 2 --reps 2 --modes none,horizontal,vertical --aer-fusion-ref --control --out results/meeting_n26/qft_aer_greedy.csv
+2026-11-10T10:54:45+00:00 DONE  qft_aer_greedy
+2026-11-10T10:54:45+00:00 START qft_aer_cost: /home/vmuser/.venv/bin/python fusion_bench.py --circuit qft --basis quest --min-n 26 --max-n 26 --threads 2 --widths 2 --reps 2 --modes horizontal,vertical --cost-model --out results/meeting_n26/qft_aer_cost.csv
+2026-11-10T10:56:45+00:00 DONE  qft_aer_cost
+2026-11-10T10:56:45+00:00 START qft_aer_ops: /home/vmuser/.venv/bin/python aer_fused_count.py --circuit qft --n 26 --threads 2 --out results/meeting_n26/qft_aer_fused_ops.json
+2026-11-10T10:57:07+00:00 DONE  qft_aer_ops
+2026-11-10T10:57:07+00:00 START qft_quest_greedy: /home/vmuser/.venv/bin/python quest_bench.py --circuit qft --min-n 26 --max-n 26 --threads 2 --widths 2 --reps 2 --modes none,horizontal,vertical,dp --dp-costs measured --cost-n 24 --control --out results/meeting_n26/qft_quest_greedy.csv
+2026-11-10T11:00:11+00:00 DONE  qft_quest_greedy
+2026-11-10T11:00:11+00:00 START qft_quest_cost: /home/vmuser/.venv/bin/python quest_bench.py --circuit qft --min-n 26 --max-n 26 --threads 2 --widths 2 --reps 2 --modes horizontal,vertical --cost-model --cost-n 24 --out results/meeting_n26/qft_quest_cost.csv
+2026-11-10T11:01:16+00:00 DONE  qft_quest_cost
+2026-11-10T11:01:16+00:00 START rqc_aer_greedy: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --basis quest --min-n 26 --max-n 26 --threads 2 --widths 2 --reps 1 --modes none,horizontal,vertical --aer-fusion-ref --out results/meeting_n26/rqc_aer_greedy.csv
+2026-11-10T11:08:08+00:00 DONE  rqc_aer_greedy
+2026-11-10T11:08:08+00:00 START rqc_aer_cost: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --basis quest --min-n 26 --max-n 26 --threads 2 --widths 2 --reps 1 --modes horizontal,vertical --cost-model --out results/meeting_n26/rqc_aer_cost.csv
+2026-11-10T11:13:44+00:00 DONE  rqc_aer_cost
+2026-11-10T11:13:44+00:00 START rqc_aer_ops: /home/vmuser/.venv/bin/python aer_fused_count.py --circuit rqc --n 26 --threads 2 --out results/meeting_n26/rqc_aer_fused_ops.json
+2026-11-10T11:14:52+00:00 DONE  rqc_aer_ops
+2026-11-10T11:14:52+00:00 START rqc_quest_greedy: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 26 --max-n 26 --threads 2 --widths 2 --reps 1 --modes none,horizontal,vertical,dp --dp-costs measured --cost-n 24 --out results/meeting_n26/rqc_quest_greedy.csv
+2026-11-10T11:17:50+00:00 DONE  rqc_quest_greedy
+2026-11-10T11:17:50+00:00 START rqc_quest_cost: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 26 --max-n 26 --threads 2 --widths 2 --reps 1 --modes horizontal,vertical --cost-model --cost-n 24 --out results/meeting_n26/rqc_quest_cost.csv
+2026-11-10T11:19:11+00:00 DONE  rqc_quest_cost
+2026-11-10T11:19:11+00:00 FINISHED

@@ -1,0 +1,2 @@
+n=26  N:103.6s/1411op  H2:85.88s/282op  V2:154s/957op  A:67.58s/1411op
+wrote results/meeting_n26/rqc_aer_greedy.csv

@@ -1,0 +1,18 @@
+# environments / caches
+.venv/
+**/.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# nested repos and tool scratch
+qiskit-lab/qiskit-aer/
+.claude/
+
+# build artifacts (regenerate with build_quest.sh)
+build/
+**/build/
+*.o
+*.so
+*.so.*
+*.a

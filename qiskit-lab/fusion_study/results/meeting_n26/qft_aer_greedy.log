@@ -1,0 +1,2 @@
+n=26  N:13.63s/364op  H2:18.95s/338op  V2:13.21s/364op  C:13.58s/364op  A:22.07s/364op
+wrote results/meeting_n26/qft_aer_greedy.csv

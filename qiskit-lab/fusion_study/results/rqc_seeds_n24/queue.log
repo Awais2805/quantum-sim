@@ -1,0 +1,49 @@
+2026-11-10T12:35:31+00:00 START seed1000_aer_greedy: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 1000 --basis quest --modes none,horizontal,vertical --aer-fusion-ref --control --out results/rqc_seeds_n24/rqc_seed1000_aer_greedy.csv
+2026-11-10T12:38:46+00:00 DONE  seed1000_aer_greedy
+2026-11-10T12:38:46+00:00 START seed1000_aer_cost: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 1000 --basis quest --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed1000_aer_cost.csv
+2026-11-10T12:40:06+00:00 DONE  seed1000_aer_cost
+2026-11-10T12:40:06+00:00 START seed1000_quest_greedy: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 1000 --modes none,horizontal,vertical,dp --dp-costs measured --cost-n 24 --control --out results/rqc_seeds_n24/rqc_seed1000_quest_greedy.csv
+2026-11-10T12:42:32+00:00 DONE  seed1000_quest_greedy
+2026-11-10T12:42:32+00:00 START seed1000_quest_cost: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 1000 --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed1000_quest_cost.csv
+2026-11-10T12:43:19+00:00 DONE  seed1000_quest_cost
+2026-11-10T12:43:19+00:00 START seed2000_aer_greedy: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 2000 --basis quest --modes none,horizontal,vertical --aer-fusion-ref --control --out results/rqc_seeds_n24/rqc_seed2000_aer_greedy.csv
+2026-11-10T12:45:31+00:00 DONE  seed2000_aer_greedy
+2026-11-10T12:45:31+00:00 START seed2000_aer_cost: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 2000 --basis quest --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed2000_aer_cost.csv
+2026-11-10T12:46:25+00:00 DONE  seed2000_aer_cost
+2026-11-10T12:46:25+00:00 START seed2000_quest_greedy: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 2000 --modes none,horizontal,vertical,dp --dp-costs measured --cost-n 24 --control --out results/rqc_seeds_n24/rqc_seed2000_quest_greedy.csv
+2026-11-10T12:48:01+00:00 DONE  seed2000_quest_greedy
+2026-11-10T12:48:01+00:00 START seed2000_quest_cost: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 2000 --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed2000_quest_cost.csv
+2026-11-10T12:48:33+00:00 DONE  seed2000_quest_cost
+2026-11-10T12:48:33+00:00 START seed3000_aer_greedy: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 3000 --basis quest --modes none,horizontal,vertical --aer-fusion-ref --control --out results/rqc_seeds_n24/rqc_seed3000_aer_greedy.csv
+2026-11-10T12:51:56+00:00 DONE  seed3000_aer_greedy
+2026-11-10T12:51:56+00:00 START seed3000_aer_cost: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 3000 --basis quest --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed3000_aer_cost.csv
+2026-11-10T12:53:18+00:00 DONE  seed3000_aer_cost
+2026-11-10T12:53:18+00:00 START seed3000_quest_greedy: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 3000 --modes none,horizontal,vertical,dp --dp-costs measured --cost-n 24 --control --out results/rqc_seeds_n24/rqc_seed3000_quest_greedy.csv
+2026-11-10T12:55:49+00:00 DONE  seed3000_quest_greedy
+2026-11-10T12:55:49+00:00 START seed3000_quest_cost: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 3000 --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed3000_quest_cost.csv
+2026-11-10T12:56:39+00:00 DONE  seed3000_quest_cost
+2026-11-10T12:56:39+00:00 START seed4000_aer_greedy: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 4000 --basis quest --modes none,horizontal,vertical --aer-fusion-ref --control --out results/rqc_seeds_n24/rqc_seed4000_aer_greedy.csv
+2026-11-10T13:01:12+00:00 DONE  seed4000_aer_greedy
+2026-11-10T13:01:12+00:00 START seed4000_aer_cost: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 4000 --basis quest --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed4000_aer_cost.csv
+2026-11-10T13:03:02+00:00 DONE  seed4000_aer_cost
+2026-11-10T13:03:02+00:00 START seed4000_quest_greedy: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 4000 --modes none,horizontal,vertical,dp --dp-costs measured --cost-n 24 --control --out results/rqc_seeds_n24/rqc_seed4000_quest_greedy.csv
+2026-11-10T13:06:27+00:00 DONE  seed4000_quest_greedy
+2026-11-10T13:06:27+00:00 START seed4000_quest_cost: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 4000 --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed4000_quest_cost.csv
+2026-11-10T13:07:32+00:00 DONE  seed4000_quest_cost
+2026-11-10T13:07:32+00:00 START seed5000_aer_greedy: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 5000 --basis quest --modes none,horizontal,vertical --aer-fusion-ref --control --out results/rqc_seeds_n24/rqc_seed5000_aer_greedy.csv
+2026-11-10T13:09:33+00:00 DONE  seed5000_aer_greedy
+2026-11-10T13:09:33+00:00 START seed5000_aer_cost: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 5000 --basis quest --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed5000_aer_cost.csv
+2026-11-10T13:10:23+00:00 DONE  seed5000_aer_cost
+2026-11-10T13:10:23+00:00 START seed5000_quest_greedy: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 5000 --modes none,horizontal,vertical,dp --dp-costs measured --cost-n 24 --control --out results/rqc_seeds_n24/rqc_seed5000_quest_greedy.csv
+2026-11-10T13:11:52+00:00 DONE  seed5000_quest_greedy
+2026-11-10T13:11:52+00:00 START seed5000_quest_cost: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 5000 --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed5000_quest_cost.csv
+2026-11-10T13:12:21+00:00 DONE  seed5000_quest_cost
+2026-11-10T13:12:21+00:00 START seed6000_aer_greedy: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 6000 --basis quest --modes none,horizontal,vertical --aer-fusion-ref --control --out results/rqc_seeds_n24/rqc_seed6000_aer_greedy.csv
+2026-11-10T13:15:40+00:00 DONE  seed6000_aer_greedy
+2026-11-10T13:15:40+00:00 START seed6000_aer_cost: /home/vmuser/.venv/bin/python fusion_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 6000 --basis quest --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed6000_aer_cost.csv
+2026-11-10T13:17:01+00:00 DONE  seed6000_aer_cost
+2026-11-10T13:17:01+00:00 START seed6000_quest_greedy: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 6000 --modes none,horizontal,vertical,dp --dp-costs measured --cost-n 24 --control --out results/rqc_seeds_n24/rqc_seed6000_quest_greedy.csv
+2026-11-10T13:19:29+00:00 DONE  seed6000_quest_greedy
+2026-11-10T13:19:29+00:00 START seed6000_quest_cost: /home/vmuser/.venv/bin/python quest_bench.py --circuit rqc --min-n 24 --max-n 24 --threads 2 --widths 2,3,4 --reps 1 --seed 6000 --modes horizontal,vertical --cost-model --cost-n 24 --out results/rqc_seeds_n24/rqc_seed6000_quest_cost.csv
+2026-11-10T13:20:19+00:00 DONE  seed6000_quest_cost
+2026-11-10T13:20:19+00:00 FINISHED

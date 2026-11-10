@@ -1,0 +1,7 @@
+backend,circuit,device,aer_fusion,cost_model,n,mode,k,ops,depth,fused_blocks,diag_blocks,max_width,transpile_s,pred_s,sim_med_s,sim_min_s,sim_max_s,wall_med_s,reps,threads
+quest,rqc,CPU,0,1,24,horizontal,2,207,25,192,27,2,0.210237,3.805803,3.982448,3.982448,3.982448,3.982448,1,2
+quest,rqc,CPU,0,1,24,vertical,2,677,102,328,120,2,0.178084,9.110963,9.457784,9.457784,9.457784,9.457784,1,2
+quest,rqc,CPU,0,1,24,horizontal,3,159,31,145,17,3,0.192869,6.945862,7.069045,7.069045,7.069045,7.069045,1,2
+quest,rqc,CPU,0,1,24,vertical,3,690,123,286,105,3,0.275513,9.607927,9.869196,9.869196,9.869196,9.869196,1,2
+quest,rqc,CPU,0,1,24,horizontal,4,148,36,136,17,4,0.216892,6.642232,6.794043,6.794043,6.794043,6.794043,1,2
+quest,rqc,CPU,0,1,24,vertical,4,677,123,276,90,4,0.363665,9.701200,9.951522,9.951522,9.951522,9.951522,1,2

@@ -1,0 +1,19 @@
+2026-11-10T04:31:43+00:00 WAIT  for overnight.sh to finish
+2026-11-10T05:04:26+00:00 WAIT  for overnight.sh to finish
+2026-11-10T05:40:48+00:00 WAIT  for overnight.sh to finish
+2026-11-10T05:41:19+00:00 RETRY overnight.sh once (queue had FAIL lines; finished steps are skipped)
+2026-11-10T05:41:21+00:00 START e_rqc_26: /home/vmuser/.venv/bin/python quest_bench.py --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --threads 2 --circuit rqc --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 26 --max-n 26 --reps 1 --out results/overnight/e_rqc_26.csv
+2026-11-10T06:02:08+00:00 DONE  e_rqc_26
+2026-11-10T06:02:08+00:00 START e_qft_29: /home/vmuser/.venv/bin/python quest_bench.py --threads 2 --control --cost-n 24 --circuit qft --modes none,both,diagonal,dp,diag+dp --widths 2 --diag-widths 8 --min-n 29 --max-n 29 --reps 1 --out results/overnight/e_qft_29.csv
+2026-11-10T06:23:35+00:00 DONE  e_qft_29
+2026-11-10T06:23:35+00:00 START e_rqc_seed4000: /home/vmuser/.venv/bin/python quest_bench.py --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --threads 2 --circuit rqc --seed 4000 --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 22 --max-n 22 --reps 2 --out results/overnight/e_rqc_seed4000.csv
+2026-11-10T06:25:16+00:00 DONE  e_rqc_seed4000
+2026-11-10T06:25:16+00:00 START e_rqc_seed5000: /home/vmuser/.venv/bin/python quest_bench.py --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --threads 2 --circuit rqc --seed 5000 --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 22 --max-n 22 --reps 2 --out results/overnight/e_rqc_seed5000.csv
+2026-11-10T06:27:02+00:00 DONE  e_rqc_seed5000
+2026-11-10T06:27:02+00:00 START e_rqc_seed6000: /home/vmuser/.venv/bin/python quest_bench.py --control --cost-n 24 --widths 2,3,4 --diag-widths 4,8 --threads 2 --circuit rqc --seed 6000 --modes none,horizontal,vertical,both,diagonal,dp,diag+dp --min-n 22 --max-n 22 --reps 2 --out results/overnight/e_rqc_seed6000.csv
+2026-11-10T06:28:30+00:00 DONE  e_rqc_seed6000
+2026-11-10T06:28:30+00:00 START e_aer_qft_t1_24: /home/vmuser/.venv/bin/python fusion_bench.py --threads 1 --control --widths 2,3,4 --aer-fusion-ref --circuit qft --min-n 24 --max-n 24 --reps 2 --out results/overnight/e_aer_qft_t1_24.csv
+2026-11-10T06:36:15+00:00 DONE  e_aer_qft_t1_24
+2026-11-10T06:36:15+00:00 START e_aer_rqc_t1_24: /home/vmuser/.venv/bin/python fusion_bench.py --threads 1 --control --widths 2,3,4 --aer-fusion-ref --circuit rqc --basis quest --min-n 24 --max-n 24 --reps 2 --out results/overnight/e_aer_rqc_t1_24.csv
+2026-11-10T06:56:54+00:00 DONE  e_aer_rqc_t1_24
+2026-11-10T06:56:54+00:00 EXTENSIONS FINISHED

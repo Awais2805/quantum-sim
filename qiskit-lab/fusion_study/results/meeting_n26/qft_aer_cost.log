@@ -1,0 +1,10 @@
+cost model: 7 gate kinds at 26 qubits (64.3s, cached in cost_table_v2_qbench_CPU_t2_n26.json)
+            cp/2     5.177 ms
+          swap/2    14.270 ms
+          diag/1    78.959 ms
+             h/1    79.768 ms
+         dense/1    93.549 ms
+          diag/2   152.949 ms
+         dense/2   322.195 ms
+n=26  H2:13.77s/364op  V2:13.2s/364op
+wrote results/meeting_n26/qft_aer_cost.csv

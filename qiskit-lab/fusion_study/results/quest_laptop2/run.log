@@ -1,0 +1,177 @@
+calibrated 36 gate kinds on QuEST at 22 qubits (8.8s) -> cost_table_v2_ar-mbp_quest_t4_n22.json
+      swap/2     1.989 ms
+        cx/2     2.357 ms
+       cry/2     2.362 ms
+        cy/2     2.412 ms
+       crx/2     2.500 ms
+        cz/2     3.311 ms
+       crz/2     3.315 ms
+        cp/2     3.324 ms
+        rx/1     3.889 ms
+     dense/1     3.915 ms
+        sx/1     3.924 ms
+         y/1     3.926 ms
+        ry/1     3.964 ms
+         u/1     3.969 ms
+         x/1     3.997 ms
+      sxdg/1     4.035 ms
+         h/1     4.094 ms
+      diag/2     4.496 ms
+       sdg/1     5.293 ms
+         z/1     5.392 ms
+         p/1     5.392 ms
+        rz/1     5.396 ms
+         t/1     5.406 ms
+         s/1     5.416 ms
+      diag/1     5.434 ms
+       tdg/1     5.435 ms
+     dense/2     5.646 ms
+      diag/3    10.977 ms
+      diag/8    13.423 ms
+      diag/4    13.594 ms
+      diag/5    15.773 ms
+      diag/6    17.102 ms
+      diag/7    17.994 ms
+     dense/3    28.512 ms
+     dense/4    46.852 ms
+     dense/5    77.609 ms
+n=16  N:0.009099s/144op  H2:0.008467s/128op  V2:0.009123s/144op  B2:0.008447s/128op  H3:0.01446s/66op  V3:0.01461s/129op  B3:0.01442s/66op  H4:0.0133s/41op  V4:0.02078s/80op  B4:0.01468s/39op  D4:0.01098s/68op  D8:0.006045s/45op  dp:aer:0.009188s/51op  dp:measured:0.008457s/128op  diag+dp:aer:0.01037s/51op  diag+dp:measured:0.00853s/128op  C:0.009208s/144op
+n=17  N:0.01911s/161op  H2:0.01797s/144op  V2:0.02038s/161op  B2:0.01771s/144op  H3:0.02831s/72op  V3:0.03055s/145op  B3:0.02947s/72op  H4:0.02891s/49op  V4:0.04521s/89op  B4:0.0337s/45op  D4:0.02431s/75op  D8:0.01286s/48op  dp:aer:0.02056s/56op  dp:measured:0.01795s/144op  diag+dp:aer:0.02292s/56op  diag+dp:measured:0.01789s/144op  C:0.01884s/161op
+n=18  N:0.04106s/180op  H2:0.04104s/162op  V2:0.04063s/180op  B2:0.03882s/162op  H3:0.07002s/83op  V3:0.06582s/163op  B3:0.07103s/83op  H4:0.06994s/53op  V4:0.1008s/100op  B4:0.07428s/52op  D4:0.05431s/83op  D8:0.02851s/53op  dp:aer:0.04533s/62op  dp:measured:0.03951s/162op  diag+dp:aer:0.05176s/62op  diag+dp:measured:0.03983s/162op  C:0.04078s/180op
+n=19  N:0.09056s/199op  H2:0.08518s/180op  V2:0.08994s/199op  B2:0.08578s/180op  H3:0.1445s/90op  V3:0.1422s/181op  B3:0.144s/90op  H4:0.1381s/60op  V4:0.2215s/110op  B4:0.1593s/56op  D4:0.1223s/90op  D8:0.06217s/56op  dp:aer:0.1039s/68op  dp:measured:0.08637s/180op  diag+dp:aer:0.1163s/68op  diag+dp:measured:0.08618s/180op  C:0.0923s/199op
+n=20  N:0.2088s/220op  H2:0.1939s/200op  V2:0.2021s/220op  B2:0.1917s/200op  H3:0.3568s/102op  V3:0.316s/201op  B3:0.3602s/102op  H4:0.3243s/68op  V4:0.5115s/120op  B4:0.3688s/63op  D4:0.276s/99op  D8:0.1382s/61op  dp:aer:0.2322s/75op  dp:measured:0.1926s/200op  diag+dp:aer:0.2601s/75op  diag+dp:measured:0.1929s/200op  C:0.2041s/220op
+n=21  N:0.4394s/241op  H2:0.4074s/220op  V2:0.4357s/241op  B2:0.4199s/220op  H3:0.7145s/110op  V3:0.6807s/221op  B3:0.7095s/110op  H4:0.7566s/72op  V4:1.096s/131op  B4:0.7518s/71op  D4:0.5858s/107op  D8:0.2946s/65op  dp:aer:0.4912s/81op  dp:measured:0.4106s/220op  diag+dp:aer:0.5466s/81op  diag+dp:measured:0.419s/220op  C:0.434s/241op
+n=22  N:0.9751s/264op  H2:0.9174s/242op  V2:0.9593s/264op  B2:0.9401s/242op  H3:1.686s/123op  V3:1.504s/243op  B3:1.683s/123op  H4:1.59s/77op  V4:2.374s/143op  B4:1.677s/75op  D4:1.31s/116op  D8:0.6331s/70op  dp:aer:1.175s/88op  dp:measured:0.8856s/242op  diag+dp:aer:1.499s/88op  diag+dp:measured:1.076s/242op  C:1.369s/264op
+wrote results/quest_laptop2/qft_quest.csv
+      swap/2     1.989 ms
+        cx/2     2.357 ms
+       cry/2     2.362 ms
+        cy/2     2.412 ms
+       crx/2     2.500 ms
+        cz/2     3.311 ms
+       crz/2     3.315 ms
+        cp/2     3.324 ms
+        rx/1     3.889 ms
+     dense/1     3.915 ms
+        sx/1     3.924 ms
+         y/1     3.926 ms
+        ry/1     3.964 ms
+         u/1     3.969 ms
+         x/1     3.997 ms
+      sxdg/1     4.035 ms
+         h/1     4.094 ms
+      diag/2     4.496 ms
+       sdg/1     5.293 ms
+         z/1     5.392 ms
+         p/1     5.392 ms
+        rz/1     5.396 ms
+         t/1     5.406 ms
+         s/1     5.416 ms
+      diag/1     5.434 ms
+       tdg/1     5.435 ms
+     dense/2     5.646 ms
+      diag/3    10.977 ms
+      diag/8    13.423 ms
+      diag/4    13.594 ms
+      diag/5    15.773 ms
+      diag/6    17.102 ms
+      diag/7    17.994 ms
+     dense/3    28.512 ms
+     dense/4    46.852 ms
+     dense/5    77.609 ms
+n=16  N:0.03667s/522op  H2:0.009369s/105op  V2:0.02564s/360op  B2:0.009187s/104op  H3:0.02074s/63op  V3:0.09065s/263op  B3:0.02205s/60op  H4:0.02167s/52op  V4:0.1123s/201op  B4:0.0275s/40op  D4:0.02771s/350op  D8:0.02406s/330op  dp:aer:0.01949s/60op  dp:measured:0.009096s/108op  diag+dp:aer:0.01892s/62op  diag+dp:measured:0.01091s/126op  C:0.03723s/522op
+n=17  N:0.08646s/642op  H2:0.02128s/130op  V2:0.05961s/440op  B2:0.0208s/127op  H3:0.0482s/80op  V3:0.2161s/312op  B3:0.04994s/76op  H4:0.04692s/72op  V4:0.2709s/242op  B4:0.07007s/49op  D4:0.06414s/427op  D8:0.05569s/397op  dp:aer:0.04438s/76op  dp:measured:0.02082s/124op  diag+dp:aer:0.04445s/77op  diag+dp:measured:0.0249s/133op  C:0.08702s/642op
+n=18  N:0.2022s/775op  H2:0.05164s/153op  V2:0.1367s/532op  B2:0.05151s/151op  H3:0.1201s/94op  V3:0.5292s/371op  B3:0.1271s/89op  H4:0.1196s/80op  V4:0.6526s/292op  B4:0.1534s/60op  D4:0.1508s/501op  D8:0.127s/467op  dp:aer:0.1119s/90op  dp:measured:0.05125s/152op  diag+dp:aer:0.113s/90op  diag+dp:measured:0.05988s/155op  C:0.2047s/775op
+n=19  N:0.3015s/570op  H2:0.05177s/74op  V2:0.2046s/357op  B2:0.05112s/71op  H3:0.1148s/48op  V3:1.207s/254op  B3:0.1279s/41op  H4:0.1032s/43op  V4:1.358s/197op  B4:0.1536s/27op  D4:0.2261s/386op  D8:0.2009s/367op  dp:aer:0.1037s/38op  dp:measured:0.04913s/69op  diag+dp:aer:0.1053s/38op  diag+dp:measured:0.05627s/76op  C:0.3116s/570op
+n=20  N:1.315s/787op  H2:0.183s/135op  V2:1.064s/515op  B2:0.1771s/129op  H3:0.3874s/85op  V3:2.964s/363op  B3:0.4373s/75op  H4:0.3898s/76op  V4:3.374s/278op  B4:0.5449s/52op  D4:0.6414s/507op  D8:0.5117s/478op  dp:aer:0.382s/74op  dp:measured:0.1856s/127op  diag+dp:aer:0.3685s/76op  diag+dp:measured:0.2135s/151op  C:1.375s/787op
+n=21  N:3.239s/1087op  H2:0.9642s/202op  V2:2.031s/739op  B2:0.5301s/200op  H3:1.697s/125op  V3:8.206s/521op  B3:1.758s/118op  H4:1.66s/106op  V4:9.651s/408op  B4:2.021s/79op  D4:2.602s/668op  D8:1.916s/614op  dp:aer:1.475s/117op  dp:measured:0.5687s/200op  diag+dp:aer:1.594s/121op  diag+dp:measured:0.6243s/203op  C:3.262s/1087op
+n=22  N:3.97s/678op  H2:0.3817s/72op  V2:2.904s/401op  B2:0.3712s/65op  H3:0.7212s/52op  V3:9.958s/281op  B3:1.428s/39op  H4:0.791s/41op  V4:11.53s/216op  B4:1.303s/25op  D4:3.068s/436op  D8:2.762s/414op  dp:aer:1.183s/38op  dp:measured:0.3304s/58op  diag+dp:aer:0.6843s/39op  diag+dp:measured:0.4233s/67op  C:4.399s/678op
+wrote results/quest_laptop2/rqc_quest.csv
+      swap/2     1.989 ms
+        cx/2     2.357 ms
+       cry/2     2.362 ms
+        cy/2     2.412 ms
+       crx/2     2.500 ms
+        cz/2     3.311 ms
+       crz/2     3.315 ms
+        cp/2     3.324 ms
+        rx/1     3.889 ms
+     dense/1     3.915 ms
+        sx/1     3.924 ms
+         y/1     3.926 ms
+        ry/1     3.964 ms
+         u/1     3.969 ms
+         x/1     3.997 ms
+      sxdg/1     4.035 ms
+         h/1     4.094 ms
+      diag/2     4.496 ms
+       sdg/1     5.293 ms
+         z/1     5.392 ms
+         p/1     5.392 ms
+        rz/1     5.396 ms
+         t/1     5.406 ms
+         s/1     5.416 ms
+      diag/1     5.434 ms
+       tdg/1     5.435 ms
+     dense/2     5.646 ms
+      diag/3    10.977 ms
+      diag/8    13.423 ms
+      diag/4    13.594 ms
+      diag/5    15.773 ms
+      diag/6    17.102 ms
+      diag/7    17.994 ms
+     dense/3    28.512 ms
+     dense/4    46.852 ms
+     dense/5    77.609 ms
+n=16  N:0.008599s/144op  H2:0.008339s/128op  V2:0.008611s/144op  B2:0.008145s/128op  H3:0.008305s/128op  V3:0.008613s/144op  B3:0.008064s/128op  H4:0.008148s/128op  V4:0.008608s/144op  B4:0.007996s/128op  D4:0.008648s/144op  D8:0.005713s/55op  C:0.008605s/144op
+n=17  N:0.01754s/161op  H2:0.01663s/144op  V2:0.0175s/161op  B2:0.01648s/144op  H3:0.01649s/144op  V3:0.01834s/161op  B3:0.01743s/144op  H4:0.01654s/144op  V4:0.01754s/161op  B4:0.01647s/144op  D4:0.01767s/161op  D8:0.01154s/58op  C:0.01825s/161op
+n=18  N:0.03784s/180op  H2:0.03594s/162op  V2:0.03773s/180op  B2:0.03657s/162op  H3:0.0362s/162op  V3:0.03903s/180op  B3:0.03628s/162op  H4:0.03584s/162op  V4:0.03814s/180op  B4:0.03589s/162op  D4:0.03808s/180op  D8:0.02624s/63op  C:0.03811s/180op
+n=19  N:0.08273s/199op  H2:0.07926s/180op  V2:0.08277s/199op  B2:0.07878s/180op  H3:0.0796s/180op  V3:0.08357s/199op  B3:0.07938s/180op  H4:0.07982s/180op  V4:0.08227s/199op  B4:0.07939s/180op  D4:0.08297s/199op  D8:0.05514s/66op  C:0.08274s/199op
+n=20  N:0.1816s/220op  H2:0.1749s/200op  V2:0.1835s/220op  B2:0.1739s/200op  H3:0.1747s/200op  V3:0.1823s/220op  B3:0.1736s/200op  H4:0.1743s/200op  V4:0.1827s/220op  B4:0.1757s/200op  D4:0.1832s/220op  D8:0.1223s/71op  C:0.182s/220op
+n=21  N:0.3963s/241op  H2:0.3786s/220op  V2:0.3964s/241op  B2:0.385s/220op  H3:0.3786s/220op  V3:0.3965s/241op  B3:0.3812s/220op  H4:0.3781s/220op  V4:0.7529s/241op  B4:0.3848s/220op  D4:0.396s/241op  D8:0.2702s/75op  C:0.7769s/241op
+n=22  N:1.393s/264op  H2:1.362s/242op  V2:1.341s/264op  B2:1.38s/242op  H3:1.387s/242op  V3:1.387s/264op  B3:1.285s/242op  H4:1.269s/242op  V4:1.37s/264op  B4:1.347s/242op  D4:1.401s/264op  D8:1.12s/80op  C:1.363s/264op
+wrote results/quest_laptop2/qft_quest_cost.csv
+      swap/2     1.989 ms
+        cx/2     2.357 ms
+       cry/2     2.362 ms
+        cy/2     2.412 ms
+       crx/2     2.500 ms
+        cz/2     3.311 ms
+       crz/2     3.315 ms
+        cp/2     3.324 ms
+        rx/1     3.889 ms
+     dense/1     3.915 ms
+        sx/1     3.924 ms
+         y/1     3.926 ms
+        ry/1     3.964 ms
+         u/1     3.969 ms
+         x/1     3.997 ms
+      sxdg/1     4.035 ms
+         h/1     4.094 ms
+      diag/2     4.496 ms
+       sdg/1     5.293 ms
+         z/1     5.392 ms
+         p/1     5.392 ms
+        rz/1     5.396 ms
+         t/1     5.406 ms
+         s/1     5.416 ms
+      diag/1     5.434 ms
+       tdg/1     5.435 ms
+     dense/2     5.646 ms
+      diag/3    10.977 ms
+      diag/8    13.423 ms
+      diag/4    13.594 ms
+      diag/5    15.773 ms
+      diag/6    17.102 ms
+      diag/7    17.994 ms
+     dense/3    28.512 ms
+     dense/4    46.852 ms
+     dense/5    77.609 ms
+n=16  N:0.0367s/522op  H2:0.009116s/111op  V2:0.02517s/360op  B2:0.009101s/110op  H3:0.01603s/82op  V3:0.02614s/368op  B3:0.01665s/81op  H4:0.01752s/68op  V4:0.02617s/365op  B4:0.02029s/61op  D4:0.0267s/350op  D8:0.02333s/330op  C:0.03718s/522op
+n=17  N:0.08419s/642op  H2:0.021s/130op  V2:0.05745s/440op  B2:0.02021s/127op  H3:0.03904s/92op  V3:0.06214s/452op  B3:0.03949s/89op  H4:0.03589s/86op  V4:0.05982s/429op  B4:0.04861s/73op  D4:0.06301s/427op  D8:0.05423s/397op  C:0.0846s/642op
+n=18  N:0.2009s/775op  H2:0.05028s/156op  V2:0.1349s/532op  B2:0.04979s/154op  H3:0.0925s/118op  V3:0.1455s/545op  B3:0.09354s/114op  H4:0.09346s/104op  V4:0.149s/532op  B4:0.1119s/94op  D4:0.147s/501op  D8:0.1233s/467op  C:0.2002s/775op
+n=19  N:0.3018s/570op  H2:0.0515s/75op  V2:0.2022s/357op  B2:0.05043s/72op  H3:0.1033s/51op  V3:0.2104s/363op  B3:0.1148s/46op  H4:0.09644s/45op  V4:0.6379s/369op  B4:0.1376s/32op  D4:0.2215s/386op  D8:0.1963s/367op  C:0.3015s/570op
+n=20  N:0.8342s/787op  H2:0.184s/139op  V2:0.543s/515op  B2:0.1783s/133op  H3:0.3651s/91op  V3:0.5922s/526op  B3:0.3995s/83op  H4:0.3514s/83op  V4:0.5845s/516op  B4:0.4359s/70op  D4:0.5933s/510op  D8:0.5062s/478op  C:1.335s/787op
+n=21  N:2.305s/1087op  H2:0.9939s/204op  V2:2.512s/739op  B2:0.5264s/202op  H3:1.467s/143op  V3:2.56s/753op  B3:1.072s/139op  H4:1.471s/129op  V4:2.605s/729op  B4:1.69s/114op  D4:2.545s/671op  D8:1.806s/614op  C:3.34s/1087op
+n=22  N:3.905s/678op  H2:0.8853s/72op  V2:2.328s/401op  B2:0.3661s/65op  H3:1.147s/50op  V3:2.899s/415op  B3:1.296s/41op  H4:1.174s/38op  V4:2.794s/409op  B4:1.244s/25op  D4:3.034s/437op  D8:2.642s/414op  C:3.952s/678op
+wrote results/quest_laptop2/rqc_quest_cost.csv

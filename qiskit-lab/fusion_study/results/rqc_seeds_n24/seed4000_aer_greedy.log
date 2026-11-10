@@ -1,0 +1,2 @@
+n=24  N:20.87s/1352op  H2:17.37s/268op  V2:31.65s/929op  H3:15.11s/167op  V3:57.7s/639op  H4:16.32s/137op  V4:76.98s/497op  C:20.86s/1352op  A:14.81s/1352op
+wrote results/rqc_seeds_n24/rqc_seed4000_aer_greedy.csv

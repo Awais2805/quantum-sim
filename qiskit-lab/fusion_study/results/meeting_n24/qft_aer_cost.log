@@ -1,0 +1,14 @@
+cost model: 11 gate kinds at 24 qubits (24.2s, cached in cost_table_v2_qbench_CPU_t2_n24.json)
+            cp/2     5.617 ms
+          swap/2     7.286 ms
+          diag/1    15.887 ms
+         dense/1    27.084 ms
+             h/1    28.618 ms
+          diag/2    36.433 ms
+          diag/3    40.590 ms
+          diag/4    46.534 ms
+         dense/2    78.214 ms
+         dense/3   110.265 ms
+         dense/4   189.906 ms
+n=24  H2:2.885s/312op  V2:2.898s/312op  H3:2.898s/312op  V3:2.894s/312op  H4:2.907s/312op  V4:2.893s/312op
+wrote results/meeting_n24/qft_aer_cost.csv

@@ -1,0 +1,2 @@
+n=24  N:23.52s/312op  H2:24.04s/288op  V2:23.56s/312op  B2:24.07s/288op  H3:14.65s/146op  V3:25.79s/289op  B3:14.66s/146op  H4:13.81s/94op  V4:19.83s/168op  B4:14.09s/93op  C:23.52s/312op  A:10.09s/312op
+wrote results/overnight/e_aer_qft_t1_24.csv

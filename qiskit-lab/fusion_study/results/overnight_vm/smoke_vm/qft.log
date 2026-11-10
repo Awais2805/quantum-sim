@@ -1,0 +1,45 @@
+calibrated 36 gate kinds on QuEST at 10 qubits (0.0s) -> cost_table_v2_qbench_quest_t2_n10.json
+      diag/1     0.004 ms
+      swap/2     0.004 ms
+      sxdg/1     0.004 ms
+        sx/1     0.005 ms
+         u/1     0.005 ms
+      diag/2     0.005 ms
+     dense/1     0.005 ms
+         t/1     0.005 ms
+         s/1     0.005 ms
+     dense/2     0.006 ms
+         p/1     0.006 ms
+       tdg/1     0.006 ms
+       sdg/1     0.006 ms
+        rz/1     0.006 ms
+         h/1     0.006 ms
+         z/1     0.006 ms
+        cp/2     0.007 ms
+        rx/1     0.007 ms
+         y/1     0.007 ms
+        ry/1     0.007 ms
+         x/1     0.008 ms
+       crz/2     0.008 ms
+        cz/2     0.008 ms
+      diag/3     0.008 ms
+      diag/4     0.009 ms
+        cy/2     0.009 ms
+       cry/2     0.009 ms
+       crx/2     0.009 ms
+        cx/2     0.009 ms
+      diag/5     0.009 ms
+      diag/6     0.009 ms
+      diag/7     0.010 ms
+      diag/8     0.011 ms
+     dense/3     0.013 ms
+     dense/4     0.016 ms
+     dense/5     0.023 ms
+n= 4  N:7.066e-05s/12op  H2:4.23e-05s/8op  V2:7.004e-05s/12op  B2:4.082e-05s/8op  H4:7.705e-06s/1op  V4:5.052e-05s/8op  B4:7.003e-06s/1op  D4:5.051e-05s/9op  D8:5.461e-05s/9op  dp:aer:1.121e-05s/2op  dp:measured:6.782e-06s/1op  diag+dp:aer:1.069e-05s/2op  diag+dp:measured:6.813e-06s/1op
+n= 5  N:0.000105s/17op  H2:6.596e-05s/12op  V2:0.0001017s/17op  B2:6.442e-05s/12op  H4:2.273e-05s/3op  V4:6.919e-05s/11op  B4:2.046e-05s/3op  D4:6.228e-05s/11op  D8:6.206e-05s/11op  dp:aer:2.633e-05s/5op  dp:measured:8.015e-06s/1op  diag+dp:aer:1.171e-05s/2op  diag+dp:measured:7.815e-06s/1op
+n= 6  N:0.0001442s/24op  H2:0.0001016s/18op  V2:0.000166s/24op  B2:0.0001003s/18op  H4:3.317e-05s/5op  V4:0.0001005s/15op  B4:2.937e-05s/4op  D4:8.774e-05s/15op  D8:8.125e-05s/14op  dp:aer:4.356e-05s/8op  dp:measured:3.25e-05s/6op  diag+dp:aer:4.773e-05s/8op  diag+dp:measured:4.163e-05s/7op
+n= 7  N:0.0001925s/31op  H2:0.0001412s/24op  V2:0.0001927s/31op  B2:0.0001562s/24op  H4:5.353e-05s/8op  V4:0.0001314s/19op  B4:4.972e-05s/7op  D4:0.0001085s/18op  D8:9.595e-05s/16op  dp:aer:6.391e-05s/11op  dp:measured:5.438e-05s/9op  diag+dp:aer:6.969e-05s/11op  diag+dp:measured:6.32e-05s/10op
+n= 8  N:0.0002483s/40op  H2:0.0001891s/32op  V2:0.0002475s/40op  B2:0.0001933s/32op  H4:0.0001352s/14op  V4:0.0001753s/24op  B4:8.279e-05s/10op  D4:0.0001429s/23op  D8:0.000116s/19op  dp:aer:8.98e-05s/15op  dp:measured:8.033e-05s/13op  diag+dp:aer:0.0001139s/15op  diag+dp:measured:9.301e-05s/14op
+n= 9  N:0.0003142s/49op  H2:0.000247s/40op  V2:0.0003385s/49op  B2:0.0002456s/40op  H4:0.0001131s/13op  V4:0.0002303s/29op  B4:0.0001125s/12op  D4:0.0002019s/27op  D8:0.0001391s/21op  dp:aer:0.0001175s/18op  dp:measured:0.0001086s/16op  diag+dp:aer:0.0001289s/18op  diag+dp:measured:0.0001198s/17op
+n=10  N:0.0004012s/60op  H2:0.0003218s/50op  V2:0.0004459s/60op  B2:0.0003231s/50op  H4:0.0001681s/17op  V4:0.0003502s/36op  B4:0.0001802s/15op  D4:0.0002324s/32op  D8:0.0001716s/24op  dp:aer:0.0001634s/22op  dp:measured:0.0001704s/20op  diag+dp:aer:0.0001828s/22op  diag+dp:measured:0.0001741s/21op
+wrote results/smoke_vm/qft.csv

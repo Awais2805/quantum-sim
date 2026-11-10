@@ -1,0 +1,2 @@
+n=24  N:58.04s/1236op  H2:29.45s/231op  V2:74.57s/835op  B2:29.46s/228op  H3:24.32s/143op  V3:101.1s/579op  B3:24.64s/136op  H4:26.79s/117op  V4:135.5s/452op  B4:29.68s/89op  C:58.03s/1236op  A:23.83s/1236op
+wrote results/overnight/e_aer_rqc_t1_24.csv
