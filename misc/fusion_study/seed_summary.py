@@ -38,7 +38,7 @@ ORDER = ["no fusion", "Aer built-in fusion", "measured-cost fusion",
 
 
 def load(dirs, default_seed):
-    data = defaultdict(dict)   # seed -> (backend, method, k) -> (time, ops)
+    data = defaultdict(dict)   # seed -> (backend, method, k) -> (time, ops, fusion-pass time)
     ns = set()
     for d in map(Path, dirs):
         for f in sorted(d.glob("rqc*.csv")):
@@ -51,7 +51,7 @@ def load(dirs, default_seed):
                 key = (r.get("backend") or "aer", *label(r))
                 t = float(r["sim_min_s"])
                 if key not in data[seed] or t < data[seed][key][0]:
-                    data[seed][key] = (t, int(r["ops"]))
+                    data[seed][key] = (t, int(r["ops"]), float(r.get("transpile_s") or 0))
     return data, ns
 
 
@@ -79,10 +79,13 @@ def main():
     lines = [f"# Random circuits at {n} qubits, averaged over {len(seeds)} circuits", "",
              f"Seeds (circuit seed = seed + {n}): {', '.join(map(str, seeds))}. "
              "Speedups are per circuit, then combined with the geometric mean; [min–max] is the range "
-             "over circuits. Times are sim_min_s.", "",
+             "over circuits. Times are sim_min_s. *Fusion pass* = mean time of our Python fusion step "
+             "(run once, before simulating); *% of total* = fusion pass / (fusion pass + simulation). "
+             "Aer built-in fusion runs inside the simulator, so it is already in the simulation time.", "",
              "| simulator | method | k | circuits | speedup vs Aer, no fusion | range | "
-             "speedup vs same simulator, no fusion | range | mean time (s) | mean gates |",
-             "|---|---|---:|---:|---:|---|---:|---|---:|---:|"]
+             "speedup vs same simulator, no fusion | range | mean time (s) | mean gates | "
+             "fusion pass (s) | % of total |",
+             "|---|---|---:|---:|---:|---|---:|---|---:|---:|---:|---:|"]
     best = None
     for key in keys:
         backend, method, k = key
@@ -94,12 +97,19 @@ def main():
         g = gmean(vs_aer)
         if best is None or g > best[0]:
             best = (g, f"{'Aer' if backend == 'aer' else 'QuEST'} · {method}" + (f" k={k}" if k != "–" else ""))
+        if method == "no fusion":
+            fs, pct = "–", "–"
+        elif method == "Aer built-in fusion":
+            fs, pct = "in sim", "–"
+        else:
+            fs = f"{statistics.fmean(data[s][key][2] for s in have):.3f}"
+            pct = f"{statistics.fmean(100 * data[s][key][2] / (data[s][key][2] + data[s][key][0]) for s in have):.2f}%"
         lines.append(
             f"| {'Aer' if backend == 'aer' else 'QuEST'} | {method} | {k} | {len(have)} | "
             f"{g:.2f}× | {min(vs_aer):.2f}–{max(vs_aer):.2f}× | {gmean(vs_own):.2f}× | "
             f"{min(vs_own):.2f}–{max(vs_own):.2f}× | "
             f"{statistics.fmean(data[s][key][0] for s in have):.2f} | "
-            f"{statistics.fmean(data[s][key][1] for s in have):.0f} |")
+            f"{statistics.fmean(data[s][key][1] for s in have):.0f} | {fs} | {pct} |")
 
     # head-to-head of the headline configurations, per circuit
     heads = [("aer", "no fusion", "–"), ("aer", "Aer built-in fusion", "–"),

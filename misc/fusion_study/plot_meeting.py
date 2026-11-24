@@ -86,7 +86,8 @@ def load_circuit(d, c):
             return None
         ops = aer_ops if mode == "aer" else int(r["ops"])
         return {"sim": sim, "mode": mode, "label": label, "cost": suffix.endswith("cost"), "k": k,
-                "t": float(r[STAT]), "ops": ops, "reps": int(r["reps"]), "n": int(r["n"])}
+                "t": float(r[STAT]), "ops": ops, "reps": int(r["reps"]), "n": int(r["n"]),
+                "fuse_s": float(r.get("transpile_s") or 0)}
 
     by_k = {}
     for k in ks:
@@ -202,15 +203,18 @@ def write_md(d, data):
     n = first["by_k"][first["ks"][0]][0]["n"]
     L = [f"# Gate fusion on Aer vs QuEST, {n} qubits", "",
          f"Machine: `{host}` ({cpu}), {thr} threads. Max fused width k = {', '.join(map(str, first['ks']))}. "
-         f"Time = best of the timed runs (`{STAT}`); only the simulation is timed, not the fusion pass.",
+         f"Time = best of the timed runs (`{STAT}`), simulation only. The fusion pass (our Python "
+         "transpiler step, run once before simulating) is timed separately in the *fusion pass* column; "
+         "*% of total* = fusion pass / (fusion pass + simulation). Aer built-in fusion runs inside the "
+         "simulator, so its cost is already in the simulation time.",
          "Speedups are against **Aer with no fusion** unless the column says otherwise. "
          "Rows with k = – choose their own block sizes.", ""]
     for c, cd in data.items():
         recs0 = cd["by_k"][cd["ks"][0]]
         L += [f"## {CIRCUITS[c]} ({n} qubits, {recs0[0]['reps']} timed run(s) per row)", "",
               "| simulator | method | k | gates applied | time (s) | speedup vs Aer, no fusion "
-              "| speedup vs same simulator, no fusion | ms per gate |",
-              "|---|---|---:|---:|---:|---:|---:|---:|"]
+              "| speedup vs same simulator, no fusion | ms per gate | fusion pass (s) | % of total |",
+              "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|"]
         seen = set()
         rows = []
         for k in cd["ks"]:
@@ -223,8 +227,15 @@ def write_md(d, data):
         rows.sort(key=lambda x: (x["sim"] != "Aer", x["k"] > 0, x["k"], order[(x["sim"], x["label"])]))
         for x in rows:
             ms = f"{x['ms_gate']:.2f}" if x["ms_gate"] else "?"
+            if x["mode"] == "none":
+                fs, pct = "–", "–"
+            elif x["mode"] == "aer":
+                fs, pct = "in sim", "–"
+            else:
+                fs = f"{x['fuse_s']:.3f}"
+                pct = f"{100 * x['fuse_s'] / (x['fuse_s'] + x['t']):.2f}%"
             L.append(f"| {x['sim']} | {x['label']} | {x['k'] or '–'} | {x['ops'] or '?'} | {x['t']:.3f} | "
-                     f"{x['speedup']:.2f}× | {x['speedup_own']:.2f}× | {ms} |")
+                     f"{x['speedup']:.2f}× | {x['speedup_own']:.2f}× | {ms} | {fs} | {pct} |")
         if cd["controls"]:
             L += ["", "Noise check (the unfused circuit timed twice): " + ", ".join(
                 f"{s} {v:+.1%}" for s, v in cd["controls"].items())]
